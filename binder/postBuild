@@ -1,3 +1,5 @@
 #!/bin/bash
+. /usr/local/bin/start.sh jupyter notebook &
+
 jupyter-nbextension install rise --py --sys-prefix
 jupyter-nbextension enable rise --py --sys-prefix
